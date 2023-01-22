@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T19:16:32 IST" name="Suite" finished-at="2023-01-21T19:18:07 IST" duration-ms="95163">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrder.SubmitOrderAgain(java.util.HashMap)[pri:0, instance:SeleniumJava.MavenIntegration.SubmitOrder@6b695b06]" name="SubmitOrderAgain" class="SeleniumJava.MavenIntegration.SubmitOrder"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-01-21T19:16:32 IST" name="Test" finished-at="2023-01-21T19:18:07 IST" duration-ms="95163">
+      <class name="SeleniumJava.MavenIntegration.StandAloneTest">
+        <test-method is-config="true" signature="LaunchDriver()[pri:0, instance:SeleniumJava.MavenIntegration.StandAloneTest@4d1bf319]" started-at="2023-01-21T19:17:51 IST" name="LaunchDriver" finished-at="2023-01-21T19:17:53 IST" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method signature="SubmitOrder()[pri:0, instance:SeleniumJava.MavenIntegration.StandAloneTest@4d1bf319]" started-at="2023-01-21T19:17:53 IST" name="SubmitOrder" finished-at="2023-01-21T19:18:07 IST" duration-ms="13213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:SeleniumJava.MavenIntegration.StandAloneTest@4d1bf319]" started-at="2023-01-21T19:18:07 IST" name="Teardown" finished-at="2023-01-21T19:18:07 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- SeleniumJava.MavenIntegration.StandAloneTest -->
+      <class name="SeleniumJava.MavenIntegration.SubmitOrder">
+        <test-method is-config="true" signature="LaunchDriver()[pri:0, instance:SeleniumJava.MavenIntegration.SubmitOrder@6b695b06]" started-at="2023-01-21T19:17:01 IST" name="LaunchDriver" finished-at="2023-01-21T19:17:07 IST" duration-ms="6442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method signature="SubmitOrderAgain(java.util.HashMap)[pri:0, instance:SeleniumJava.MavenIntegration.SubmitOrder@6b695b06]" started-at="2023-01-21T19:17:07 IST" name="SubmitOrderAgain" data-provider="getData" finished-at="2023-01-21T19:17:22 IST" duration-ms="14615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=@Daisy0123, email=apd@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrderAgain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:SeleniumJava.MavenIntegration.SubmitOrder@6b695b06]" started-at="2023-01-21T19:17:22 IST" name="Teardown" finished-at="2023-01-21T19:17:22 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="LaunchDriver()[pri:0, instance:SeleniumJava.MavenIntegration.SubmitOrder@6b695b06]" started-at="2023-01-21T19:17:22 IST" name="LaunchDriver" finished-at="2023-01-21T19:17:26 IST" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method signature="SubmitOrderAgain(java.util.HashMap)[pri:0, instance:SeleniumJava.MavenIntegration.SubmitOrder@6b695b06]" started-at="2023-01-21T19:17:26 IST" name="SubmitOrderAgain" data-provider="getData" finished-at="2023-01-21T19:17:51 IST" duration-ms="24833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=@Daisy01234, email=apdd@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrderAgain -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:SeleniumJava.MavenIntegration.SubmitOrder@6b695b06]" started-at="2023-01-21T19:17:51 IST" name="Teardown" finished-at="2023-01-21T19:17:51 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- SeleniumJava.MavenIntegration.SubmitOrder -->
+      <class name="SeleniumJava.MavenIntegration.ErrorValidation">
+        <test-method is-config="true" signature="LaunchDriver()[pri:0, instance:SeleniumJava.MavenIntegration.ErrorValidation@7c37508a]" started-at="2023-01-21T19:16:32 IST" name="LaunchDriver" finished-at="2023-01-21T19:16:37 IST" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method signature="Idvalidation()[pri:0, instance:SeleniumJava.MavenIntegration.ErrorValidation@7c37508a]" started-at="2023-01-21T19:16:37 IST" name="Idvalidation" finished-at="2023-01-21T19:16:37 IST" duration-ms="610" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at SeleniumJava.MavenIntegration.ErrorValidation.Idvalidation(ErrorValidation.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Idvalidation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:SeleniumJava.MavenIntegration.ErrorValidation@7c37508a]" started-at="2023-01-21T19:16:38 IST" name="Teardown" finished-at="2023-01-21T19:16:54 IST" duration-ms="16335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="LaunchDriver()[pri:0, instance:SeleniumJava.MavenIntegration.ErrorValidation@7c37508a]" started-at="2023-01-21T19:16:54 IST" name="LaunchDriver" finished-at="2023-01-21T19:16:57 IST" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method signature="ProductValidation()[pri:0, instance:SeleniumJava.MavenIntegration.ErrorValidation@7c37508a]" started-at="2023-01-21T19:16:57 IST" name="ProductValidation" finished-at="2023-01-21T19:17:00 IST" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductValidation -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:SeleniumJava.MavenIntegration.ErrorValidation@7c37508a]" started-at="2023-01-21T19:17:00 IST" name="Teardown" finished-at="2023-01-21T19:17:00 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- SeleniumJava.MavenIntegration.ErrorValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
